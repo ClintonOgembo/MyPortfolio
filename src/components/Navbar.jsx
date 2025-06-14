@@ -12,7 +12,7 @@ function Navbar() {
 
     return (
         <nav className="fixed top-0 left-0 right-0 bg-indigo-700 bg-opacity-90 text-white flex justify-between items-center px-6 py-4 z-50">
-      <div className="text-xl font-bold">My Portfolio</div>
+      <div className="text-xl font-bold"><h3>My Portfolio</h3></div>
 
       <ul className="hidden md:flex space-x-8">
         {links.map(({ name, href }) => (

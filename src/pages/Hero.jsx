@@ -6,11 +6,11 @@ function Hero() {
       id="hero"
       className="min-h-screen flex items-center justify-center animated-gradient text-white px-6"
     >
-      <div className="text-center max-w-2xl">
+      <div className="text-center  max-w-2xl">
         <img
           src={myPhoto}
           alt="Clinton Ogembo"
-          className="mx-auto mb-6 w-2 h-10 object-cover rounded-full border-4 border-white shadow-lg w-1/2"
+          className="mx-auto mb-6 object-cover rounded-full border-4 border-white shadow-lg w-1/4"
         />
         <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
           Hi, I'm <span className="text-yellow-300">Clinton Ogembo</span>
@@ -21,13 +21,13 @@ function Hero() {
         <div className="flex flex-row justify-center space-x-12 mt-8">
           <a
             href="#projects"
-            className="bg-white text-indigo-700 px-8 py-3 rounded-full font-semibold shadow-md hover:bg-indigo-100 hover:scale-105 transition transform duration-200 border-2 border-white mr-12"
+            className="bg-red-600 text-indigo-700 px-8 py-3 rounded-full font-semibold shadow-md hover:bg-green-100 hover:scale-105 transition transform duration-200 border-2 border-white mr-12"
           >
             View Projects
           </a>
           <a
             href="#contact"
-            className="bg-transparent border-2 border-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-indigo-700 hover:scale-105 transition transform duration-200 text-white mr-12"
+            className="bg-green-600 border-2 border-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-indigo-700 hover:scale-105 transition transform duration-200 text-white mr-12"
           >
             Contact Me
           </a>
