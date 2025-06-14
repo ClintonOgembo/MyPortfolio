@@ -11,8 +11,13 @@ function Projects() {
       link: "#",
     },
     {
-      title: "Todo List",
-      description: "A simple and clean to-do list application to manage daily tasks effectively.",
+      title: "Telemedicine App",
+      description: "Web application that links patients and doctors in different areas",
+      link: "#",
+    },
+    {
+      title: "MSFC Web APP ",
+      description: "A simple frontend application to manage and inform MSFC team activities and progress.",
       link: "#",
     },
   ];
