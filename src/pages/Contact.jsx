@@ -46,7 +46,7 @@ function Contact() {
           />
           <button
             type="submit"
-            className="items-center bg-indigo-600 text-white rounded-full py-3 font-semibold hover:bg-indigo-700 transition w-1/6"
+            className="items-center bg-indigo-600 text-white rounded-full py-3 font-semibold hover:bg-indigo-700 transition w-1/5"
           >
             Send Message
           </button>
