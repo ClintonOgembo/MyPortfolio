@@ -8,17 +8,17 @@ function Projects() {
     {
       title: "Weather App",
       description: "A weather forecasting app using the OpenWeatherMap API and React Hooks.",
-      link: "#",
+      link: "https://github.com/ClintonOgembo/WeatherAPP",
     },
     {
       title: "Telemedicine App",
-      description: "Web application that links patients and doctors in different areas",
-      link: "#",
+      description: "Web application that links patients and doctors in different areas, both frontend and backend",
+      link: "https://github.com/ClintonOgembo/TelemedicineApp",
     },
     {
       title: "MSFC Web APP ",
       description: "A simple frontend application to manage and inform MSFC team activities and progress.",
-      link: "#",
+      link: "https://github.com/ClintonOgembo/MSFC_Website",
     },
   ];
 

@@ -25,7 +25,7 @@ function Contact() {
             <FaInstagram color="#E4405F"/>
           </a>
         </div>
-        <form className="bg-white rounded-lg shadow-md p-10 flex flex-col gap-4">
+        <form className="bg-white rounded-lg shadow-md p-10 flex flex-col gap-4 m-12">
           <input
             type="text"
             placeholder="Your Name"
