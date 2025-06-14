@@ -1,3 +1,5 @@
+import myPhoto from '../assets/me.jpg';
+
 function Hero() {
   return (
     <section
@@ -5,6 +7,11 @@ function Hero() {
       className="min-h-screen flex items-center justify-center animated-gradient text-white px-6"
     >
       <div className="text-center max-w-2xl">
+        <img
+          src={myPhoto}
+          alt="Clinton Ogembo"
+          className="mx-auto mb-6 w-2 h-10 object-cover rounded-full border-4 border-white shadow-lg w-1/2"
+        />
         <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
           Hi, I'm <span className="text-yellow-300">Clinton Ogembo</span>
         </h1>
