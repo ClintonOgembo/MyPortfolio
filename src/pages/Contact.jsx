@@ -1,4 +1,4 @@
-import { FaEnvelope, FaPhone, FaLinkedin } from "react-icons/fa";
+import { FaEnvelope, FaPhone, FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 
 function Contact() {
   return (
@@ -10,13 +10,19 @@ function Contact() {
         </p>
         <div className="flex justify-between items-center w-1/4 max-w-sm max-auto mb-8">
           <a href="mailto:clintonogembo70@gmail.com" className="text-3xl text-indigo-600 hover:text-indigo-800 transition">
-            <FaEnvelope />
+            <FaEnvelope color="#EA4335"/>
           </a>
           <a href="tel:+254111805894" className="text-3xl text-indigo-600 hover:text-indigo-800 transition">
-            <FaPhone />
+            <FaPhone color="#34A853"/>
           </a>
           <a href="https://www.linkedin.com/in/clinton-ogembo-4a353b307/" target="_blank" rel="noopener noreferrer" className="text-3xl text-indigo-600 hover:text-indigo-800 transition">
-            <FaLinkedin />
+            <FaLinkedin color="#0077B5"/>
+          </a>
+          <a href="https://github.com/ClintonOgembo" target="_blank" rel="noopener noreferrer" className="text-3xl text-indigo-600 hover:text-indigo-800 transition">
+            <FaGithub color="#181717"/>
+          </a>
+          <a href="https://www.instagram.com/clinton_og8?igsh=YzljYTk1ODg3Zg==" target="_blank" rel="noopener noreferrer" className="text-3xl text-indigo-600 hover:text-indigo-800 transition">
+            <FaInstagram color="#E4405F"/>
           </a>
         </div>
         <form className="bg-white rounded-lg shadow-md p-10 flex flex-col gap-4">
