@@ -8,7 +8,7 @@ function Contact() {
         <p className="mb-8 text-lg text-gray-700">
           Feel free to reach out for collaborations or just a friendly hello!
         </p>
-        <div className="flex justify-between items-center w-1/4 max-w-sm max-auto mb-8">
+        <div className="flex justify-between items-center w-1/5 max-w-sm max-auto mb-8">
           <a href="mailto:clintonogembo70@gmail.com" className="text-3xl text-indigo-600 hover:text-indigo-800 transition">
             <FaEnvelope color="#EA4335"/>
           </a>
