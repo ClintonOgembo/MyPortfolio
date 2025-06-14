@@ -10,7 +10,7 @@ function Hero() {
         <img
           src={myPhoto}
           alt="Clinton Ogembo"
-          className="mx-auto mb-6 object-cover rounded-full border-4 border-white shadow-lg w-1/4"
+          className="mx-auto mb-6 object-cover rounded-full border-4 border-white shadow-lg w-1/2"
         />
         <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
           Hi, I'm <span className="text-yellow-300">Clinton Ogembo</span>
