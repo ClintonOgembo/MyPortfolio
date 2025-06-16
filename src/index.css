@@ -20,3 +20,23 @@ html {
   background-size: 400% 400%;
   animation: gradient-move 10s ease-in-out infinite;
 }
+
+#butt1{
+  color: black;
+  background-color: chartreuse;
+}
+
+#butt2{
+  color: black;
+  background-color: red;
+}
+
+#butt3{
+  color: black;
+  background-color: greenyellow;
+}
+
+#viewproj:hover{
+  color: red;
+  text-decoration:dotted;
+}

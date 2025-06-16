@@ -47,6 +47,7 @@ function Projects() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-indigo-600 hover:text-indigo-800 font-medium"
+                id="viewproj"
               >
                 View Project →
               </a>

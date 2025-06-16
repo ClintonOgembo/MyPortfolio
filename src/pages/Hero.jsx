@@ -22,12 +22,14 @@ function Hero() {
           <a
             href="#projects"
             className="bg-red-600 text-indigo-700 px-8 py-3 rounded-full font-semibold shadow-md hover:bg-green-100 hover:scale-105 transition transform duration-200 border-2 border-white mr-12"
+            id='butt1'
           >
             View Projects
           </a>
           <a
             href="#contact"
             className="bg-green-600 border-2 border-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-indigo-700 hover:scale-105 transition transform duration-200 text-white mr-12"
+            id="butt2"
           >
             Contact Me
           </a>
