@@ -1,32 +1,32 @@
 import React from "react";
 
 function Projects() {
-  const projects = [
-    {
-      title: "Portfolio Website",
-      description:
-        "A personal website to showcase my projects and skills, built with React and Tailwind CSS.",
-      link: "https://github.com/ClintonOgembo/MyPortfolio",
-    },
-    {
-      title: "Weather App",
-      description:
-        "A weather forecasting app using the OpenWeatherMap API and React Hooks.",
-      link: "https://github.com/ClintonOgembo/WeatherAPP",
-    },
-    {
-      title: "Telemedicine App",
-      description:
-        "Web application that links patients and doctors in different areas, both frontend and backend.",
-      link: "https://github.com/ClintonOgembo/TelemedicineApp",
-    },
-    {
-      title: "MSFC Web APP",
-      description:
-        "A simple frontend application to manage and inform MSFC team activities and progress.",
-      link: "https://github.com/ClintonOgembo/MSFC_Website",
-    },
-  ];
+      const projects = [
+        {
+          title: "Portfolio Website",
+          description:
+            "A personal website to showcase my projects and skills, built with React and Tailwind CSS.",
+          link: "https://github.com/ClintonOgembo/MyPortfolio",
+        },
+        {
+          title: "Weather App",
+          description:
+            "A weather forecasting app using the OpenWeatherMap API and React Hooks.",
+          link: "https://github.com/ClintonOgembo/WeatherAPP",
+        },
+        {
+          title: "Telemedicine App",
+          description:
+            "Web application that links patients and doctors in different areas, both frontend and backend.",
+          link: "https://github.com/ClintonOgembo/TelemedicineApp",
+        },
+        {
+          title: "MSFC Web APP",
+          description:
+            "A simple frontend application to manage and inform MSFC team activities and progress.",
+          link: "https://github.com/ClintonOgembo/MSFC_Website",
+        },
+      ];
 
   return (
     <section className="bg-gray-100 py-20 px-6" id="projects">
