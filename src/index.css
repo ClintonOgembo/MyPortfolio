@@ -37,16 +37,28 @@ html {
 }
 
 #viewproj:hover{
-  color: red;
+  color: greenyellow;
   text-decoration:dotted;
-}
-
-#projects:hover{
-  padding: 8px;
+  background-color: black;
+  font-weight: 1000;
 }
 
 #projects{
   padding: 4px;
   align-items: center;
   justify-content: space-between;
+  width: 100%;
+  margin: 4px;
+}
+
+#projo:hover{
+  background-color: gray;
+  font-weight: 500;
+}
+
+#projo{
+  margin: 4px;
+  padding: 4px;
+  width: 40%;
+  border-radius: 3px;
 }

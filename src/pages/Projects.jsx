@@ -30,13 +30,14 @@ function Projects() {
 
   return (
     <section className="bg-gray-100 py-20 px-6" id="projects">
-      <div className="max-w-[1400px] mx-auto text-center">
-        <h2 className="text-4xl font-bold mb-12 text-gray-800">Projects</h2>
-        <div className="flex justify-between flex-wrap gap-x-12 gap-y-12">
+      <div className="p-4 md:p-8 bg-gray-50 min-h-screen">
+        <h2 className="text-2xl font-bold mb-6 text-center text-gray-800">Projects</h2>
+        <div className="grid grid-cols-2 md:grid-cols-2 gap-6">
           {projects.map((project, index) => (
             <article
               key={index}
-              className="bg-white border-4 border-gray-400 rounded-2xl shadow-sm hover:shadow-lg transform hover:-translate-y-1 transition duration-300 p-6 w-1/4 min-w-[280px]"
+              className="p-4 border rounded-lg shadow-md transition-transform transform hover:scale-105 hover:shadow-xl bg-white"
+              id='projo'
             >
               <h3 className="text-xl font-semibold mb-3 text-indigo-700">
                 {project.title}
