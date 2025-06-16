@@ -61,3 +61,44 @@ html {
   padding: 4px;
   border-radius: 3px;
 }
+
+#react{
+  margin: 5px;
+}
+
+#css{
+  margin: 5px;
+}
+
+#js{
+  margin: 5px;
+}
+#html{
+  margin: 5px;
+}
+#node{
+  margin: 5px;
+}
+#git{
+  margin: 5px;
+}
+#exp{
+  margin: 5px;
+}
+#java{
+  margin: 5px;
+}
+#py{
+  margin: 5px;
+}
+#php{
+  margin: 5px;
+}
+c{
+  margin: 5px;
+}
+#label{
+  margin: 4px;
+  font-weight: 400;
+  font-style: italic;
+}

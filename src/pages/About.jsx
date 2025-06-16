@@ -12,9 +12,7 @@ function About() {
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-4xl font-bold mb-10">About Me</h2>
 
-        {/* Grid: Personal Story & Journey into Coding */}
         <div className="grid md:grid-cols-2 gap-8 mb-4 text-left">
-          {/* Personal Story */}
           <div>
             <h4 className="text-xl font-semibold mb-2">Personal Story & Background</h4>
             <p className="text-lg leading-relaxed text-justify">
@@ -22,7 +20,6 @@ function About() {
             </p>
           </div>
 
-          {/* Journey into Coding */}
           <div>
             <h4 className="text-xl font-semibold mb-2">My Journey into Coding</h4>
             <p className="text-lg leading-relaxed text-justify">
@@ -43,22 +40,23 @@ function About() {
         <h4 className="text-2xl font-semibold mb-6">Skills & Tech Stack</h4>
         <div className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-4 gap-12 justify-items-center mb-12">
           {[
-            { icon: <FaReact className="text-7xl" color="#61DAFB" />, label: "React" },
-            { icon: <SiJavascript className="text-7xl" color="#F7DF1E" />, label: "JavaScript" },
-            { icon: <FaHtml5 className="text-7xl" color="#E34F26" />, label: "HTML5" },
-            { icon: <FaCss3Alt className="text-7xl" color="#1572B6" />, label: "CSS3" },
-            { icon: <FaNodeJs className="text-7xl" color="#339933" />, label: "Node.js" },
-            { icon: <SiExpress className="text-7xl" color="#000000" />, label: "Express.js" },
-            { icon: <SiMysql className="text-7xl" color="#4479A1" />, label: "MySQL" },
-            { icon: <FaGitAlt className="text-7xl" color="#F05032" />, label: "Git" },
-            { icon: <DiJava className="text-7xl" color="#007396" />, label: "Java" },
-            { icon: <SiCplusplus className="text-7xl" color="#00599C" />, label: "C++" },
-            { icon: <SiPython className="text-7xl" color="#3776AB" />, label: "Python" },
-            { icon: <SiPhp className="text-7xl" color="#777BB4" />, label: "PHP" },
+            { icon: <FaReact id="react" className="text-[100px]" color="#61DAFB" />, label: "React" },
+            { icon: <SiJavascript id='js' className="text-[100px]" color="#F7DF1E" />, label: "JavaScript" },
+            { icon: <FaHtml5 id='html' className="text-[100px]" color="#E34F26" />, label: "HTML5" },
+            { icon: <FaCss3Alt id='css' className="text-[100px]" color="#1572B6" />, label: "CSS3" },
+            { icon: <FaNodeJs id='node' className="text-[100px]" color="#339933" />, label: "Node.js" },
+            { icon: <SiExpress id='exp' className="text-[100px]" color="#000000" />, label: "Express.js" },
+            { icon: <SiMysql id='sql' className="text-[100px]" color="#4479A1" />, label: "MySQL" },
+            { icon: <FaGitAlt id='git' className="text-[100px]" color="#F05032" />, label: "Git" },
+            { icon: <DiJava id='java' className="text-[100px]" color="#007396" />, label: "Java" },
+            { icon: <SiCplusplus id='c' className="text-[100px]" color="#00599C" />, label: "C++" },
+            { icon: <SiPython id='py' className="text-[100px]" color="#3776AB" />, label: "Python" },
+            { icon: <SiPhp id='php' className="text-[100px]" color="#777BB4" />, label: "PHP" },
           ].map(({ icon, label }) => (
             <div
               key={label}
               className="flex flex-col items-center w-24 transform transition-transform duration-300 hover:scale-110 hover:rotate-6"
+              id='label'
             >
               {icon}
               <span className="mt-2 text-base font-medium">{label}</span>
