@@ -2,26 +2,26 @@ import { FaEnvelope, FaPhone, FaLinkedin, FaGithub, FaInstagram } from "react-ic
 
 function Contact() {
   return (
-    <section className="min-h-screen bg-gray-50 py-20 px-6" id="contact">
+    <section id='contact' className="min-h-screen bg-gray-50 py-20 px-6">
       <div className="max-w-2xl mx-auto">
         <h2 className="text-4xl font-bold mb-6">Contact Me</h2>
         <p className="mb-8 text-lg text-gray-700">
           Feel free to reach out for collaborations or just a friendly hello!
         </p>
-        <div className="flex justify-between items-center w-1/2 max-w-sm max-auto mb-8">
-          <a href="mailto:clintonogembo70@gmail.com" className="text-3xl text-indigo-600 hover:text-indigo-800 transition">
+        <div id='icons' className="flex justify-between w-1/3 max-w-sm max-auto mb-8">
+          <a href="mailto:clintonogembo70@gmail.com" className="text-3xl text-indigo-600 hover:scale-200 transition-transform duration-300">
             <FaEnvelope color="#EA4335"/>
           </a>
-          <a href="tel:+254111805894" className="text-3xl text-indigo-600 hover:text-indigo-800 transition">
+          <a href="tel:+254111805894" className="text-3xl text-indigo-600 hover:scale-200 transition-transform duration-300">
             <FaPhone color="#34A853"/>
           </a>
-          <a href="https://www.linkedin.com/in/clinton-ogembo-4a353b307/" target="_blank" rel="noopener noreferrer" className="text-3xl text-indigo-600 hover:text-indigo-800 transition">
+          <a href="https://www.linkedin.com/in/clinton-ogembo-4a353b307/" target="_blank" rel="noopener noreferrer" className="text-3xl text-indigo-600 hover:scale-200 transition-transform duration-300">
             <FaLinkedin color="#0077B5"/>
           </a>
-          <a href="https://github.com/ClintonOgembo" target="_blank" rel="noopener noreferrer" className="text-3xl text-indigo-600 hover:text-indigo-800 transition">
+          <a href="https://github.com/ClintonOgembo" target="_blank" rel="noopener noreferrer" className="text-3xl text-indigo-600 hover:scale-200 transition-transform duration-300">
             <FaGithub color="#181717"/>
           </a>
-          <a href="https://www.instagram.com/clinton_og8?igsh=YzljYTk1ODg3Zg==" target="_blank" rel="noopener noreferrer" className="text-3xl text-indigo-600 hover:text-indigo-800 transition">
+          <a href="https://www.instagram.com/clinton_og8?igsh=YzljYTk1ODg3Zg==" target="_blank" rel="noopener noreferrer" className="text-3xl text-indigo-600 hover:scale-200 transition-transform duration-300">
             <FaInstagram color="#E4405F"/>
           </a>
         </div>
@@ -34,7 +34,7 @@ function Contact() {
           />
           <input
             type="email"
-            placeholder="Your Email"
+            placeholder="Your email"
             className="border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-400 w-1/2"
             required
           />
@@ -49,7 +49,7 @@ function Contact() {
             className="items-center bg-green-600 text-white rounded-full py-3 font-semibold hover:bg-red-700 transition w-1/5"
             id="butt3"
           >
-            Send Message
+            Send
           </button>
         </form>
       </div>

@@ -102,3 +102,12 @@ c{
   font-weight: 400;
   font-style: italic;
 }
+
+#contact{
+  text-align: center;
+}
+
+#icons{
+  margin-bottom: 12px;
+  margin-right: 0;
+}
