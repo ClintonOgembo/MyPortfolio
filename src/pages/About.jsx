@@ -6,31 +6,43 @@ import {
 } from "react-icons/si";
 import { DiJava } from "react-icons/di";
 
-
 function About() {
   return (
     <section className="min-h-screen bg-white text-gray-800 py-20 px-6" id="about">
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-4xl font-bold mb-10">About Me</h2>
 
-        <h4 className="text-xl font-semibold mb-2">Personal Story & Background</h4>
-        <p className="text-lg leading-relaxed text-justify mb-6">
-          I’m Clinton Ogembo, a passionate Full Stack Developer with a deep curiosity for how technology shapes our world. Growing up, I was always fascinated by computers and how software can solve real-life problems. This early interest led me on a journey to explore programming, where I discovered the joy of building digital experiences from scratch.
-        </p>
+        {/* Grid: Personal Story & Journey into Coding */}
+        <div className="grid md:grid-cols-2 gap-8 mb-4 text-left">
+          {/* Personal Story */}
+          <div>
+            <h4 className="text-xl font-semibold mb-2">Personal Story & Background</h4>
+            <p className="text-lg leading-relaxed text-justify">
+              I’m Clinton Ogembo, a passionate Full Stack Developer with a deep curiosity for how technology shapes our world. Growing up, I was always fascinated by computers and how software can solve real-life problems. This early interest led me on a journey to explore programming, where I discovered the joy of building digital experiences from scratch.
+            </p>
+          </div>
 
-        <h4 className="text-xl font-semibold mb-2">My Journey into Coding</h4>
-        <p className="text-justify mb-6">
-          My coding journey began in campus when I took my first programming class. I was instantly captivated by the logic and creativity involved in writing code. Over time, I expanded my skills through online courses, projects, and collaboration with other developers. Each step reinforced my love for problem-solving and continuous learning.
-        </p>
+          {/* Journey into Coding */}
+          <div>
+            <h4 className="text-xl font-semibold mb-2">My Journey into Coding</h4>
+            <p className="text-lg leading-relaxed text-justify">
+              My coding journey began in campus when I took my first programming class. I was instantly captivated by the logic and creativity involved in writing code. Over time, I expanded my skills through online courses, projects, and collaboration with other developers. Each step reinforced my love for problem-solving and continuous learning.
+            </p>
+          </div>
+        </div>
 
-        <h4 className="text-xl font-semibold mb-2">Values & Philosophy</h4>
-        <p className="text-justify mb-10">
-          I believe that technology should be accessible, efficient, and user-centered. I strive to write clean, maintainable code and embrace collaboration and open communication. Integrity, growth, and empathy guide how I approach both my work and interactions with others.
-        </p>
+        {/* Values Section: centered and same width as one column */}
+        <div className="w-full md:w-1/2 mx-auto mb-12 text-left">
+          <h4 className="text-xl font-semibold mb-2 text-center">Values & Philosophy</h4>
+          <p className="text-lg leading-relaxed text-justify">
+            I believe that technology should be accessible, efficient, and user-centered. I strive to write clean, maintainable code and embrace collaboration and open communication. Integrity, growth, and empathy guide how I approach both my work and interactions with others.
+          </p>
+        </div>
 
+        {/* Skills Section */}
         <h4 className="text-2xl font-semibold mb-6">Skills & Tech Stack</h4>
-        <div className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-4 gap-12 justify-items-center mb-8">
-          {[ 
+        <div className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-4 gap-12 justify-items-center mb-12">
+          {[
             { icon: <FaReact className="text-7xl" color="#61DAFB" />, label: "React" },
             { icon: <SiJavascript className="text-7xl" color="#F7DF1E" />, label: "JavaScript" },
             { icon: <FaHtml5 className="text-7xl" color="#E34F26" />, label: "HTML5" },
@@ -44,13 +56,17 @@ function About() {
             { icon: <SiPython className="text-7xl" color="#3776AB" />, label: "Python" },
             { icon: <SiPhp className="text-7xl" color="#777BB4" />, label: "PHP" },
           ].map(({ icon, label }) => (
-            <div key={label} className="flex flex-col items-center w-24">
+            <div
+              key={label}
+              className="flex flex-col items-center w-24 transform transition-transform duration-300 hover:scale-110 hover:rotate-6"
+            >
               {icon}
               <span className="mt-2 text-base font-medium">{label}</span>
             </div>
           ))}
         </div>
 
+        {/* Experience and Education */}
         <h4 className="text-xl font-semibold mb-2">Experience & Education</h4>
         <p className="text-justify mb-6">
           I have worked on various personal and group projects that involve full stack development. I’m continuously expanding my portfolio and skill set through real-world challenges.
@@ -58,6 +74,7 @@ function About() {
           I am currently a student at Multimedia University of Kenya pursuing a Bachelor's Degree in Software Engineering.
         </p>
 
+        {/* Interests */}
         <h4 className="text-xl font-semibold mb-2">Personal Interests</h4>
         <p className="text-justify">
           Outside of coding, I enjoy reading about emerging technologies, contributing to open source projects, and engaging with the developer community. I also love football and photography, activities that help me stay creative and balanced.
