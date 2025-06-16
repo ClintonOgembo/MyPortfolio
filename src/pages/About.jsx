@@ -60,7 +60,7 @@ function About() {
 
         <h4 className="text-xl font-semibold mb-2">Personal Interests</h4>
         <p className="text-justify">
-          Outside of coding, I enjoy reading about emerging technologies, contributing to open source projects, and engaging with the developer community. I also love football and photography — activities that help me stay creative and balanced.
+          Outside of coding, I enjoy reading about emerging technologies, contributing to open source projects, and engaging with the developer community. I also love football and photography, activities that help me stay creative and balanced.
         </p>
       </div>
     </section>
